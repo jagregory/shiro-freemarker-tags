@@ -29,4 +29,18 @@
             <url>http://repo1.maven.org/maven2/</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>proofofconcept-nexus</id>
+            <name>Proof of Concept nexus</name>
+            <url>http://proofisgood.com:8081/nexus/content/repositories/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>proofofconcept-nexus</id>
+            <name>Proof of Concept nexus</name>
+            <url>http://proofisgood.com:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
